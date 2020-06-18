@@ -9,7 +9,7 @@ agent any
     stage('Two'){
       steps{
          echo"Hi"
-         sh python hello.py
+         sh 'python hello.py'
             }
                 }
           }
